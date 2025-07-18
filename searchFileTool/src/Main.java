@@ -13,9 +13,12 @@ public class Main {
 
 
     public static void main(String[] args) throws InterruptedException {
+//        args = new String[2];
+//        args[0] = "clash";
+//        args[1] = "/home";
         int argsLength = args.length;
         boolean useThread = false;
-        if (args[argsLength-1].equals("--thread")) {
+        if (argsLength > 1 && args[argsLength-1].equals("--thread")) {
             useThread = true;
             argsLength--;
         }

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ThreadPool">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/searchFileTool/src/lib/ThreadPool.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

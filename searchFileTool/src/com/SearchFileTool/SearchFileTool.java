@@ -1,6 +1,7 @@
 package com.SearchFileTool;
 
-import com.Thread.tool.ThreadPool.MyThreadPool;
+import com.Thread.test.ThreadPool.MyThreadPool;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
@@ -17,7 +18,7 @@ public class SearchFileTool {
     private final boolean useThread;
     private MyThreadPool myThreadPool;
     int count = 0;
-    public SearchFileTool(SearchFileTool model, String SearchFiles,  boolean useThread) {
+    public SearchFileTool(SearchModel model, String SearchFiles,  boolean useThread) {
         this.model = model;
         this.SearchFiles = SearchFiles;
         this.useThread = useThread;
