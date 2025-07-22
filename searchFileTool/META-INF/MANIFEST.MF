@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: huangjiaxin with Java 17.0.15 (Ubuntu)
+Main-Class: Main
+Class-Path: ./lib/ThreadPool.jar
+
+

@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 17.0.15 (Ubuntu)
-Main-Class: Main
-Class-Path: ../lib/ThreadPool.jar
-
